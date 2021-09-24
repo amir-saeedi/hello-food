@@ -1,0 +1,92 @@
+@media screen and (max-width: 721px){
+    .wrapper,.container,.blog-wrapper{
+        width: 100%;
+    }
+    .masthead .landing-nav{
+        float: none;
+        margin: 0 auto;
+        display: table;
+    }
+    .masthead .logo{
+        float: none;
+        margin: 5px auto;
+        display: table;
+    }
+    .landing-sevices,.cover{
+        height: auto;
+    }
+    .services ul li{
+        width: 50%;
+        margin: 0;
+        padding: 15px;
+    }
+    .views p{
+        padding: 30px 0 0;
+        font-size: 25px;
+    }
+    .landing-list .grid figure{
+        width: 45%;
+        height: auto;
+        margin: 15px;
+    }
+    .landing-list .grid figure img{
+        width: 100%;
+    }
+    .landing-blog .content{
+        padding: 10px;
+    }
+    .landing-blog .content .post .right,.landing-blog .content .post .left{
+        width: 100%;
+        float: none;
+    }
+    .landing-blog .content .post .right img,.landing-blog .content .post .left img{
+        width: 100%;
+        float: none;
+    }
+    .landing-contact .map,.landing-contact .contact-form{
+        width: 100%;
+        float: none;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 480px){
+    .masthead .landing-nav{
+        display: none;
+    }
+    .responsive-nav .nav-bar{
+        display: block;
+    }
+    .cover .landing-cover{
+        top:10%
+    }
+    .title h2{
+        font-size: 30px;
+    }
+    .services ul li{
+        width: 100%;
+    }
+    .landing-about .about-text,.landing-about .thumb{
+        width: 100%;
+        float: none;
+        padding-bottom: 0;
+    }
+    .landing-about .thumb {
+        margin-top: 0;
+    }
+    .landing-about .thumb img{
+        float: none;
+        display: block;
+        margin: 0 auto  ;
+    }
+    .views p{
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .grid{
+        padding: 10px;
+    }
+    .landing-list .grid figure{
+        width: 100%;
+        margin: 0 0 10px;
+    }
+}
